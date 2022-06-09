@@ -7,17 +7,20 @@ import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import EvenntBind from "./components/EventBind";
 import UseStatehook from "./components/Hooks";
+import Conditionalrender from "./components/conditinal rendaringMethods";
+import List from "./components/listofrendering";
 
 function App() {
    return <div className="App">      
-
+<List/>
 {/*<ComponentA/>*/}
 {/*<Arrays/>*/}
-{/*<Propertices/>*/}
+<Propertices/>
 {/*<FunctionClick/>*/}
 {/*<ClassClick/>*/}
 {/*<EvenntBind/>*/}
-<UseStatehook/>
+{/*<Conditionalrender/>*/}
+{/*<UseStatehook/>*/}
   </div>
     }
 

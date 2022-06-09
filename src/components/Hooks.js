@@ -5,14 +5,14 @@ function UseStatehook(){
     const[state,setstate]=useState({name:"kala",age:"24",marks:"100"})
     const[value,setvalue]=useState([{color:"green",brand:"oppo"},{color:"yelllow",brand:"apple"},{color:"blue",brand:"vivo"}])
 console.log("value>>",value)
-const object= value.map(({color,brand})=>{
+/*const object= value.map(({color,brand})=>{
      return 
-})
+})*/
     return<div>
         <h2>my name is {state.name} my age {state.age} my marks are{state.marks}</h2>
         <h3>the color of mobile {value[0].color} brand is {value[0].brand}</h3>
-       <h3>{object}</h3>
-       <table>
+       {/*<h3>{object}</h3>*/}
+       <table className="table">
            <tbody>
                <tr>
                <td>S.no</td>

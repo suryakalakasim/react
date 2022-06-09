@@ -10,6 +10,10 @@ font-size: 30px;
 cursor: pointer;
 
 }
+.table{
+  border:2px;
+  color: black;
+}
 .value{
   color: green;
 font-size: 30px;
