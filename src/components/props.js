@@ -1,6 +1,5 @@
 import React from "react";
 import  Studentnipo from "./studentnipo"
-import Dstraturingprops from "./destraturingofprops";
 function Propertices(props){
 
     let arry =["ravi","raju","siva"]
@@ -10,7 +9,7 @@ function Propertices(props){
     return <div>
 
 {/*<Studentnipo student={arry} number={201} obj={object} studentgrade={grade?"gradeA":"gradeB"}arrayofobj={arrayofobject}/>*/}
- <Dstraturingprops obj={object}/>
+ 
  
     </div>
 }

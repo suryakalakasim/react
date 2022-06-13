@@ -9,18 +9,23 @@ import EvenntBind from "./components/EventBind";
 import UseStatehook from "./components/Hooks";
 import Conditionalrender from "./components/conditinal rendaringMethods";
 import List from "./components/listofrendering";
-
+import Lifecyclemethod from "./components/lifecycle";
+import ClickCounter from "./components/clickCounter";
+import HoverCounter from "./components/HoverCounter";
 function App() {
    return <div className="App">      
-<List/>
+{/*<List/>*/}
 {/*<ComponentA/>*/}
 {/*<Arrays/>*/}
-<Propertices/>
+{/*<Propertices/>*}
 {/*<FunctionClick/>*/}
 {/*<ClassClick/>*/}
 {/*<EvenntBind/>*/}
 {/*<Conditionalrender/>*/}
 {/*<UseStatehook/>*/}
+{/*<Lifecyclemethod/>*/}
+<ClickCounter/>
+<HoverCounter/>
   </div>
     }
 
