@@ -26,7 +26,7 @@ function App() {
 {/*<EvenntBind/>*/}
 {/*<Conditionalrender/>*/}
 {/*<UseStatehook/>*/}
-{/*<Lifecyclemethod/>*/}
+<Lifecyclemethod/>
 {/*<ClickCounter/>*/}
 {/*<HoverCounter/>*/}
   <Component1/>
