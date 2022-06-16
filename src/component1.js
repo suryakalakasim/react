@@ -9,4 +9,4 @@ function Component1(){
 <Component2/>
     </div>
 }
-export default Component1;
+export default Component1;s

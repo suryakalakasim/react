@@ -13,6 +13,8 @@ import Lifecyclemethod from "./components/lifecycle";
 import ClickCounter from "./components/clickCounter";
 import HoverCounter from "./components/HoverCounter";
 import Component1 from "./components/component1";
+import Form from "./components/form";
+import Apilicationform from "./components/apform";
 export const context = createContext()
 function App() {
   let stdDetails ={name:"siva",marks:"100",age:"20"}
@@ -26,10 +28,12 @@ function App() {
 {/*<EvenntBind/>*/}
 {/*<Conditionalrender/>*/}
 {/*<UseStatehook/>*/}
-<Lifecyclemethod/>
+{/*<Lifecyclemethod/>*/}
 {/*<ClickCounter/>*/}
 {/*<HoverCounter/>*/}
-  <Component1/>
+{/*<Form/>*/}
+<Apilicationform/>
+  {/*<Component1/>*/}
   </div>
     }
 
