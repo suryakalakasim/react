@@ -4,8 +4,10 @@ function Apilicationform (){
     const[mail,setMail]= useState("")
      const [password,setPasswor]=useState("")
      const handelSubmit=(event)=>{
+        // if(alert(password.length>5?`${name} ${mail} ${password}`:"this field is manditary"))
          
-        alert(`${name} ${mail} ${password}`)
+       alert(`${name} ${mail} ${password}`)
+
         event.preventDefault();
      }
         return(<div>
