@@ -1,6 +1,16 @@
 import React,{useContext} from "react";
-function Component3(){
+import {userConsumer} from  './components/userContext';
+function Component3(username){
     return<div>
+Component3
+
+<userConsumer>
+    {
+        (username)=>{
+            return<div>Hello{username}</div>
+        }
+    }
+</userConsumer>
 
     </div>
 }

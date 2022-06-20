@@ -1,5 +1,4 @@
 import "./App.css";
-import React, { createContext, useContext } from "react";
 import ComponentA from "./components/componentA";
 import Arrays from "./components/props and state";
 import Propertices from "./components/props";
@@ -16,8 +15,7 @@ import Component1 from "./components/component1";
 import Form from "./components/form";
 import Apilicationform from "./components/apform";
 import Hooks from "./components/useEffect";
-
-export const context = createContext()
+import {userProvider} from './components/userContext';
 function App() {
   let stdDetails ={name:"siva",marks:"100",age:"20"}
    return <div className="App">      
@@ -34,9 +32,12 @@ function App() {
 {/*<ClickCounter/>*/}
 {/*<HoverCounter/>*/}
 {/*<Form/>*/}
-<Hooks/>
+{/*<Hooks/>*/}
 {/*<Apilicationform/>*/}
-  {/*<Component1/>*/}
+<userProvider username="kala"> 
+<Component1/>
+</userProvider>
+ 
   </div>
     }
 
