@@ -15,9 +15,11 @@ import Component1 from "./components/component1";
 import Form from "./components/form";
 import Apilicationform from "./components/apform";
 import Hooks from "./components/useEffect";
-import {userProvider} from './components/userContext';
+import { UserProvider } from "./components/userContext";
+
 function App() {
   let stdDetails ={name:"siva",marks:"100",age:"20"}
+  let array =["apple","bannana","orange","mango"]
    return <div className="App">      
 {/*<List/>*/}
 {/*<ComponentA/>*/}
@@ -34,9 +36,10 @@ function App() {
 {/*<Form/>*/}
 {/*<Hooks/>*/}
 {/*<Apilicationform/>*/}
-<userProvider username="kala"> 
-<Component1/>
-</userProvider>
+<UserProvider value={array} >
+  <Component1/>
+  </UserProvider>
+  
  
   </div>
     }
