@@ -16,6 +16,8 @@ import Form from "./components/form";
 import Apilicationform from "./components/apform";
 import Hooks from "./components/useEffect";
 import { UserProvider } from "./components/userContext";
+import HooksMouse from "./components/HookMouse";
+import MouseContiner from "./components/MouseContiner";
 
 function App() {
   let stdDetails ={name:"siva",marks:"100",age:"20"}
@@ -36,11 +38,12 @@ function App() {
 {/*<Form/>*/}
 {/*<Hooks/>*/}
 {/*<Apilicationform/>*/}
-<UserProvider value={array} >
+{/*<UserProvider value={array} >
   <Component1/>
-  </UserProvider>
-  
  
+</UserProvider>*/}
+ {/* <HooksMouse/>*/}
+ <MouseContiner/>
   </div>
     }
 
