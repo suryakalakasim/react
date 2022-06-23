@@ -18,6 +18,9 @@ import Hooks from "./components/useEffect";
 import { UserProvider } from "./components/userContext";
 import HooksMouse from "./components/HookMouse";
 import MouseContiner from "./components/MouseContiner";
+import IntervalCounter from "./components/IntervalConter";
+import PostList from "./components/postlist";
+import Counter from "./components/useMemo";
 
 function App() {
   let stdDetails ={name:"siva",marks:"100",age:"20"}
@@ -40,10 +43,12 @@ function App() {
 {/*<Apilicationform/>*/}
 {/*<UserProvider value={array} >
   <Component1/>
- 
-</UserProvider>*/}
+ </UserProvider>*/}
  {/* <HooksMouse/>*/}
- <MouseContiner/>
+{/* <MouseContiner/>*/}
+{/*<IntervalCounter/>*/}
+{/*<PostList/>*/}
+<Counter/>
   </div>
     }
 
