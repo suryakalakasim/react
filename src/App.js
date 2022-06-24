@@ -21,6 +21,8 @@ import MouseContiner from "./components/MouseContiner";
 import IntervalCounter from "./components/IntervalConter";
 import PostList from "./components/postlist";
 import Counter from "./components/useMemo";
+import PostForm from "./components/postForm";
+import GetData from "./components/Httpget";
 
 function App() {
   let stdDetails ={name:"siva",marks:"100",age:"20"}
@@ -48,7 +50,9 @@ function App() {
 {/* <MouseContiner/>*/}
 {/*<IntervalCounter/>*/}
 {/*<PostList/>*/}
-<Counter/>
+{/*<Counter/>*/}
+{/*<PostForm/>*/}
+<GetData/>
   </div>
     }
 

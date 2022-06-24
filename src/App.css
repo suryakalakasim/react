@@ -10,9 +10,16 @@ font-size: 30px;
 cursor: pointer;
 
 }
+.postlist{
+  background-color: white;
+  color: blue;
+}
 .table{
   border:2px;
   color: black;
+}
+.empty{
+  color: red;
 }
 .value{
   color: green;
