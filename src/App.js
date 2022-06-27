@@ -23,6 +23,8 @@ import PostList from "./components/postlist";
 import Counter from "./components/useMemo";
 import PostForm from "./components/postForm";
 import GetData from "./components/Httpget";
+import FetchData from "./components/FetchData";
+import DeletePost from "./components/DeletePost";
 
 function App() {
   let stdDetails ={name:"siva",marks:"100",age:"20"}
@@ -52,7 +54,9 @@ function App() {
 {/*<PostList/>*/}
 {/*<Counter/>*/}
 {/*<PostForm/>*/}
-<GetData/>
+{/*<GetData/>*/}
+{/*<FetchData/>*/}
+<DeletePost/>
   </div>
     }
 
