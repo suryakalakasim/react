@@ -25,6 +25,9 @@ import PostForm from "./components/postForm";
 import GetData from "./components/Httpget";
 import FetchData from "./components/FetchData";
 import DeletePost from "./components/DeletePost";
+import TernaryOparetor from "./components/ternery";
+import UseReducer from "./components/useReducer";
+import Todos from "./components/new";
 
 function App() {
   let stdDetails ={name:"siva",marks:"100",age:"20"}
@@ -56,7 +59,10 @@ function App() {
 {/*<PostForm/>*/}
 {/*<GetData/>*/}
 {/*<FetchData/>*/}
-<DeletePost/>
+{/*<DeletePost/>*/}
+{/*<TernaryOparetor/>*/}
+<UseReducer/>
+<Todos/>
   </div>
     }
 
