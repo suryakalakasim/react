@@ -28,7 +28,11 @@ import DeletePost from "./components/DeletePost";
 import TernaryOparetor from "./components/ternery";
 import UseReducer from "./components/useReducer";
 import Todos from "./components/new";
-
+import FocusInput from "./components/Focues";
+import { BrowserRouter,Routes,Route } from "react-router-dom";
+import Image from "./components/Image";
+import Home from "./components/Home";
+import About from "./components/About";
 function App() {
   let stdDetails ={name:"siva",marks:"100",age:"20"}
   let array =["apple","bannana","orange","mango"]
@@ -61,8 +65,17 @@ function App() {
 {/*<FetchData/>*/}
 {/*<DeletePost/>*/}
 {/*<TernaryOparetor/>*/}
-<UseReducer/>
-<Todos/>
+{/* <UseReducer/> */}
+{/* <Todos/> */}
+{/* <FocusInput/> */}
+<BrowserRouter>
+<Routes>
+  <Route path='/' element={<Home/>}/>
+  <Route path='/image' element={<Image/>}/>
+  <Route path='/about' element={<About/>}/>
+</Routes>
+</BrowserRouter>
+
   </div>
     }
 
