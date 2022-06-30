@@ -28,6 +28,12 @@ cursor: pointer;
   background-color: rgb(0, 153, 255);
 
 }
+.card{
+  /* color: green; */
+  /* background-color: blue; */
+  text-align: left;
+  
+}
 .link{
   padding: 5px;
   margin: 5px;
@@ -43,7 +49,10 @@ button:hover{
   background-color: green;
   color: white;
 }
-
+.card:hover{
+  background-color: hotpink;
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

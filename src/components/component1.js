@@ -1,5 +1,5 @@
 import React  from "react";
-import Component2 from "../components/component2";
+import Component2 from "./component2";
 class Component1 extends React.Component{
     render(){
     return<div>

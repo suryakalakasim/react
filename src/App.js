@@ -29,54 +29,58 @@ import TernaryOparetor from "./components/ternery";
 import UseReducer from "./components/useReducer";
 import Todos from "./components/new";
 import FocusInput from "./components/Focues";
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Image from "./components/Image";
 import Home from "./components/Home";
 import About from "./components/About";
+import img from './images/pexels-blaque-x-863963.jpg';
+import Create from "./components/creation";
 function App() {
-  let stdDetails ={name:"siva",marks:"100",age:"20"}
-  let array =["apple","bannana","orange","mango"]
-   return <div className="App">      
-{/*<List/>*/}
-{/*<ComponentA/>*/}
-{/*<Arrays/>*/}
-{/*<Propertices/>*}
+  let stdDetails = { name: "siva", marks: "100", age: "20" }
+  let array = ["apple", "bannana", "orange", "mango"]
+  return <div className="App">
+    {/* <img src={img} alt="image" height={100} width={100} /> */}
+    {/*<List/>*/}
+    {/*<ComponentA/>*/}
+    {/*<Arrays/>*/}
+    {/*<Propertices/>*}
 {/*<FunctionClick/>*/}
-{/*<ClassClick/>*/}
-{/*<EvenntBind/>*/}
-{/*<Conditionalrender/>*/}
-{/*<UseStatehook/>*/}
-{/*<Lifecyclemethod/>*/}
-{/*<ClickCounter/>*/}
-{/*<HoverCounter/>*/}
-{/*<Form/>*/}
-{/*<Hooks/>*/}
-{/*<Apilicationform/>*/}
-{/*<UserProvider value={array} >
+    {/*<ClassClick/>*/}
+    {/*<EvenntBind/>*/}
+    {/*<Conditionalrender/>*/}
+    {/*<UseStatehook/>*/}
+    {/*<Lifecyclemethod/>*/}
+    {/*<ClickCounter/>*/}
+    {/*<HoverCounter/>*/}
+    {/*<Form/>*/}
+    {/*<Hooks/>*/}
+    {/*<Apilicationform/>*/}
+    {/*<UserProvider value={array} >
   <Component1/>
  </UserProvider>*/}
- {/* <HooksMouse/>*/}
-{/* <MouseContiner/>*/}
-{/*<IntervalCounter/>*/}
-{/*<PostList/>*/}
-{/*<Counter/>*/}
-{/*<PostForm/>*/}
-{/*<GetData/>*/}
-{/*<FetchData/>*/}
-{/*<DeletePost/>*/}
-{/*<TernaryOparetor/>*/}
-{/* <UseReducer/> */}
-{/* <Todos/> */}
-{/* <FocusInput/> */}
-<BrowserRouter>
-<Routes>
-  <Route path='/' element={<Home/>}/>
-  <Route path='/image' element={<Image/>}/>
-  <Route path='/about' element={<About/>}/>
-</Routes>
-</BrowserRouter>
+    {/* <HooksMouse/>*/}
+    {/* <MouseContiner/>*/}
+    {/*<IntervalCounter/>*/}
+    {/*<PostList/>*/}
+    {/*<Counter/>*/}
+    {/*<PostForm/>*/}
+    {/* <GetData/> */}
+    {/* <Create/> */}
+    {/*<FetchData/>*/}
+    {/*<DeletePost/>*/}
+    {/*<TernaryOparetor/>*/}
+    {/* <UseReducer/> */}
+    {/* <Todos/> */}
+    {/* <FocusInput/> */}
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/image' element={<Image />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
+    </BrowserRouter>
 
   </div>
-    }
+}
 
 export default App;
