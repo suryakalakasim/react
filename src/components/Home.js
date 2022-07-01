@@ -1,7 +1,9 @@
 import React,{useState,useEffect} from "react";
 import{Link} from 'react-router-dom'
 import axios from "axios";
-import {Card} from 'reactstrap';
+import {Card} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';  
+import {Row, Col} from 'react-bootstrap'  
 function Home(){
     const[data,setData]=useState([])
     useEffect(()=>{
@@ -18,12 +20,22 @@ function Home(){
     return(<div>
         <h1 style={{color:"red"}}>This is an Homepage</h1>
     
-        {/* <Link className="link" to='/image'>image</Link> */}
-        {/* <Link className="link" to='/about'>about</Link> */}
-        {/* {data.map(itam=><li key={itam.id}>{itam.title}</li>)} */}
+        <Link className="link" to='/image'>image</Link>
+        <Link className="link" to='/about'>about</Link>
         <div>
- {data?data.map(itam=><Card style={{width:"100px"}} className="card" key={itam.id} >
-     id:{itam.userId}<br/>title:{itam.title}<br/>body:{itam.body}</Card>):<div>data not found</div>}
+            <Row xs={1} md={3}>
+ {data?data.map(itam=>
+ <div key={itam.id}>
+  
+      
+     <Col >
+     <Card  style={{width:"18rem"}} className="card"  >
+     id:{itam.userId}<br/>title:{itam.title}<br/>body:{itam.body}</Card>
+    </Col>
+    
+    </div>
+    ):<div>data not found</div>}
+    </Row>
 </div>
     </div>)
 }
