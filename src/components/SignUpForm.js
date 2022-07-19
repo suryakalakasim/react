@@ -16,7 +16,7 @@ function SinUpForm() {
                 <Col xs={8} className="login-page" >
                     <Row>
                         <Row>
-                            <Col><h3 style={{color:"rgb(126, 126, 231)"}}>Signup</h3></Col>
+                            <Col><h3 style={{textAlign:"center" ,color:"rgb(126, 126, 231)"}}>Signup</h3></Col>
                         </Row>
                         <Form>
       <Row className="mb-3">
