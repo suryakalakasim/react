@@ -18,6 +18,77 @@ cursor: pointer;
   border:2px;
   color: black;
 }
+.inline{
+  display:inline-block;
+  width: 80px;
+  margin: 10px;
+}
+.boder-style{
+  border: 2px solid #d3d3d3;
+  width: 800px;
+  height: 400px;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.Signform-style{
+
+  border: 2px solid #d3d3d3;
+  width: 800px;
+  height: 700px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.form-color{
+  background-color: rgb(126, 126, 231);
+  height: 700px;
+  padding: 200px;
+
+}
+.link-color{
+  color: green;
+}
+.size{
+  width: 200px;
+  margin-left: 150px;
+  
+}
+.login-page{
+  padding-top: 20px;
+
+}
+
+.color{
+  background-color: rgb(126, 126, 231);
+  height: 400px;
+  padding: 150px;
+}
+.forgot-link{
+margin-left: 100px;
+}
+.signIn-button{
+  border: none;
+  color: white;
+  background-color: rgb(26, 26, 134);
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+ margin-bottom: 30px;
+}
+.label-style{
+  margin: left 0%;
+  margin-right: 100px;
+}
 .empty{
   color: red;
 }

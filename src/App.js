@@ -34,7 +34,8 @@ import Image from "./components/Image";
 import Home from "./components/Home";
 import About from "./components/About";
 import img from './images/pexels-blaque-x-863963.jpg';
-import Create from "./components/creation";
+import Create from "./creation";
+import SinUpForm from "./components/SignUpForm";
 function App() {
   let stdDetails = { name: "siva", marks: "100", age: "20" }
   let array = ["apple", "bannana", "orange", "mango"]
@@ -65,21 +66,21 @@ function App() {
     {/*<Counter/>*/}
     {/*<PostForm/>*/}
     {/* <GetData/> */}
-    {/* <Create/> */}
+    <Create/><br/>
     {/*<FetchData/>*/}
     {/*<DeletePost/>*/}
     {/*<TernaryOparetor/>*/}
     {/* <UseReducer/> */}
     {/* <Todos/> */}
     {/* <FocusInput/> */}
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/image' element={<Image />} />
-        <Route path='/about' element={<About />} />
-      </Routes>
-    </BrowserRouter>
-
+    {/* <BrowserRouter> */}
+     {/* // <Routes> */}
+        {/* <Route path='/' element={<Home />} /> */}
+        {/* <Route path='/image' element={<Image />} /> */}
+        {/* <Route path='/about' element={<About />} /> */}
+      {/* </Routes> */}
+    {/* </BrowserRouter> */}
+    <SinUpForm/>
   </div>
 }
 
