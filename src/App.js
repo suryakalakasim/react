@@ -36,6 +36,8 @@ import About from "./components/About";
 import img from './images/pexels-blaque-x-863963.jpg';
 import Create from "./creation";
 import SinUpForm from "./components/SignUpForm";
+import Redux from "./REDUX/main/main";
+
 function App() {
   let stdDetails = { name: "siva", marks: "100", age: "20" }
   let array = ["apple", "bannana", "orange", "mango"]
@@ -80,7 +82,8 @@ function App() {
         {/* <Route path='/about' element={<About />} /> */}
       {/* </Routes> */}
     {/* </BrowserRouter> */}
-    <SinUpForm/>
+    {/* <SinUpForm/> */}
+    <Redux/>
   </div>
 }
 
